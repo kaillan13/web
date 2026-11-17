@@ -1,7 +1,14 @@
+@charset "UTF-8";
+
 body#corpo {
-    background: url("imagens/fundo.png");
+	background: url("imagens/fundo.png");
 }
 
 .texto {
-    color: white
+    color:white
+}
+.tituloprincipal {
+    color:white;
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-align: center;
 }
