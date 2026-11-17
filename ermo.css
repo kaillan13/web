@@ -21,6 +21,6 @@ body#corpo {
     border: solid 8px #000000;
     width: 25%;
     padding-top: 5px;
-    float: right;
+    float: center;
     transition: all 1.5s;
 }
