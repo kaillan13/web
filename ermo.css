@@ -1,8 +1,7 @@
 body#corpo {
-    background-image: none !important;
-    background-color: magenta !important;
+    background: url("imagens/fundo.png");
 }
 
 .texto {
-    color: blue !important;
+    color: white
 }
