@@ -1,9 +1,8 @@
-@charset "UTF-8";
-
 body#corpo {
-	background: url("imagens/fundo.png");
+    background-image: none !important;
+    background-color: magenta !important;
 }
 
 .texto {
-    color:white
+    color: blue !important;
 }
