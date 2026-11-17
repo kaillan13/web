@@ -3,3 +3,7 @@
 body#corpo {
 	background: url("imagens/fundo.png");
 }
+
+class#texto {
+    color:white
+}
