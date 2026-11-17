@@ -4,6 +4,6 @@ body#corpo {
 	background: url("imagens/fundo.png");
 }
 
-class#texto {
+.texto {
     color:white
 }
