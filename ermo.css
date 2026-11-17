@@ -17,3 +17,10 @@ body#corpo {
     font-family: 'Sedgwick Ave Display', cursive;
     text-align: center;
 }
+.foto1 {
+    border: solid 8px #000000;
+    width: 25%;
+    padding-top: 5px;
+    float: right;
+    transition: all 1.5s;
+}
