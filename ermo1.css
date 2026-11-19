@@ -31,6 +31,37 @@ nav#menutopo a:visited {
     margin-top: 80px;
 }
 
+body#corpo {
+	background: url("imagens/fundo.png");
+}
+
+
+nav#menutopo a {
+            color: white;
+            text-decoration: none;
+        }
+nav#menutopo a:visited {
+            color: white;
+        }
+.texto {
+    color: white;
+    text-align: center;
+}
+
+.texto p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+.tituloprincipal {
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+
 .subtitulos {
     color: white;
     font-family: 'Sedgwick Ave Display', cursive;
@@ -63,6 +94,204 @@ nav#menutopo a:visited {
 
 .foto1 figcaption {
     padding: 5px;
+}
+.foto1 {
+    background-color: rgb(3, 23, 66);
+    text-align: center;
+    border-radius: 20px;
+    width: 85%;
+    max-width: 1000px;
+    padding: 15px;
+    margin: 30px auto;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px 5px rgb(0, 33, 179);
+}
+.foto2 figcaption {
+    padding: 5px;
+}
+#imagemtopo{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+}
+nav#menutopo {
+    background-color: rgb(3, 23, 66);
+    width: 100%;
+    height: 50px;
+    border-top: 3px solid rgb(1, 123, 153);
+    text-align: center;
+    justify-content: center;
+}
+
+nav#menutopo ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+   
+}
+
+nav#menutopo li {
+    display: flex;
+    padding: 0 25px;
+    text-transform: uppercase;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+nav#menutopo li:hover {
+    background-color: rgb(1, 123, 153);
+
+}
+
+
+
+.email {
+    
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+article#produtosdoconteudo {
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    width: 85%;
+    max-width: 1000px;
+    padding: 15px;
+    margin: 30px auto;
+    box-sizing: border-box;
+
+}
+.tabela-produtos {
+    width: 100%;
+    color: white;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgb(3, 23, 66);
+}
+
+.tabela-produtos tr:hover {
+    background-color: rgb(1, 123, 153);
+    transition: background-color 0.3s;
+}
+.tabela-produtos td:hover{
+    transform: scale(1.05) translateY(-5px);
+    transition: transform 0.3s;
+}
+
+
+.tabela-produtos th, .tabela-produtos td {
+    border: 1px solid rgb(1, 14, 34);
+    padding: 10px;
+    text-align: center;
+}
+.tabela-produtos th {
+    background-color: rgb(4, 171, 212);
+    text-transform: uppercase;
+}
+.tabela-produtos img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.principal {
+    color: white;
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+    margin-top: 20px;
+}
+.videos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    
+}
+
+.videodentro {
+    background-color: rgb(3, 23, 66);
+    padding: 60px;
+    border-radius: 10px;
+    border: 2px solid rgb(1, 55, 68);
+    
+}
+.videodentro iframe {
+    height: 315px;
+    width: 470px;
+    
+    
+}
+
+.area-localizacao {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.mapa {background-color: rgb(3, 23, 66);
+    text-align: center;
+    border-radius: 20px;
+    width: 85%;
+    max-width: 1000px;
+    padding: 15px;
+    margin: 30px auto;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px 5px rgb(0, 33, 179);
+    
+}
+
+.subtitulos {
+    color: white;
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-align: center;
+}
+
+.foto67 {
+    background-color: rgb(3, 23, 66);
+    text-align: center;
+    border-radius: 20px;
+    width: 85%;
+    max-width: 1000px;
+    padding: 15px;
+    margin: 30px auto;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px 5px rgb(0, 33, 179);
+}
+
+.foto2{
+ background-color: rgb(3, 23, 66);
+    text-align: center;
+    border-radius: 20px;
+    width: 85%;
+    max-width: 1000px;
+    padding: 15px;
+    margin: 30px auto;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px 5px rgb(0, 33, 179);
+}
+
+.foto1 figcaption {
+    padding: 5px;
+}
+.foto1 {
+    background-color: rgb(3, 23, 66);
+    text-align: center;
+    border-radius: 20px;
+    width: 85%;
+    max-width: 1000px;
+    padding: 15px;
+    margin: 30px auto;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px 5px rgb(0, 33, 179);
 }
 .foto2 figcaption {
     padding: 5px;
