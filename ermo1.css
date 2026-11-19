@@ -25,10 +25,15 @@ nav#menutopo a:visited {
     padding: 0 20px;
 }
 
-.tituloprincipal {
+.tituloprincipal,
+h1 {
     color: white;
     text-align: center;
     margin-top: 80px;
+    background-color: rgb(3, 23, 66);
+    box-shadow: 0px 0px 15px 5px rgb(0, 33, 179);
+    border-radius: 20px;
+    border: 2px solid rgb(0, 33, 179);
 }
 
 body#corpo {
@@ -60,6 +65,11 @@ nav#menutopo a:visited {
     color: white;
     text-align: center;
     margin-top: 80px;
+    background-color: rgb(3, 23, 66);
+    box-shadow: 0px 0px 15px 5px rgb(0, 33, 179);
+    border-radius: 20px;
+    border: 2px solid rgb(0, 33, 179);
+
 }
 
 .subtitulos {
@@ -211,7 +221,7 @@ article#produtosdoconteudo {
 .principal {
     color: white;
     text-align: center;
-    font-family: 'Sedgwick Ave Display', cursive;
+    
     margin-top: 20px;
 }
 .videos {
