@@ -186,6 +186,7 @@ article#produtosdoconteudo {
     border-collapse: collapse;
     margin-top: 20px;
     background-color: rgb(3, 23, 66);
+    box-shadow: 0px 0px 15px 5px rgb(0, 33, 179);
 }
 
 .tabela-produtos tr:hover {
